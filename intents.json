@@ -1,0 +1,76 @@
+{"intents": [
+  {
+    "tag": "salutation",
+    "patterns": [
+      "Hey",
+      "Salut",
+      "Comment ca va ?",
+      "Il y a quelqu'un ?",
+      "Bonjour",
+      "Salutation !"
+    ],
+    "reponses": [
+      "Bien le bonjour !",
+      "Salut, merci de nous rendre visite.",
+      "Bonjour, que puis je faire pour vous ?",
+      "Salut, comment puis je vous aider ?"
+    ]
+  },
+  {
+    "tag": "aurevoir",
+    "patterns": [
+      "Aurevoir",
+      "A la prochaine",
+      "On se voit une prochaine fois"
+
+    ],
+    "reponses": [
+      "Aurevoir !",
+      "Merci de votre visite",
+      "A la prochaine fois"
+    ]
+  },
+  {
+    "tag": "Moyen de paiement",
+    "patterns": [
+      "Comment on peut payer ?",
+      "Vous prenez paypal ?",
+      "Peut on payer par cheque ?"
+
+    ],
+    "reponses": [
+      "Nous acceptons carte bleu, paypal, cheque et espece en magasin !",
+      "Oui.",
+      "Oui, en magasins"
+    ]
+  },
+  {
+    "tag": "blague",
+    "patterns": [
+      "Raconte moi une blague",
+      "Tu peux etre drole ?"
+
+    ],
+    "reponses": [
+      "Malheuresement, mon programmeur n'est pas quelqu'un de drole.",
+      "Je ne le suis pas."
+
+    ]
+  },
+  {
+    "tag": "Question",
+    "patterns": [
+      "Vous servez quoi ? ",
+      "Qu'avez vous a vendre ? ",
+      "Il y a quoi dans votre stock ?"
+
+    ],
+    "reponses": [
+      "Il n'y que des produits alimentaires !",
+      "Pourquoi me posez vous cette question ?",
+      "Rien."
+    ]
+  }
+]
+
+}
